@@ -1,0 +1,405 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instrucao{
+    margin: 40px 0;
+    text-align: left;
+}
+
+.labelInput{
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titlePage{
+    margin-top: 40px;
+}
+
+.inputText, .form-control{
+    font-size: 16px;
+    color: #707070;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+@media (min-width: 1280px){
+    .MuiContainer-maxWidthLg {
+        max-width: 2000px !important;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.labelHorario{
+    margin-bottom: 0;
+}
+
+.form-label{
+    margin: 0;
+}
+
+.cardCol {
+    border: 1px solid #c7c7c7;
+    padding: 4px 12px !important;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.row{
+    max-width: 100%;
+    margin: auto;
+}
+
+.colHora{
+    padding: 0;
+}
+
+.form-check-input {
+    background-color: lightgray;
+    margin: 5px;
+}
+
+.form-check-input:checked {
+    background-color: #29579B !important;
+    border-color: #29579B !important;
+}
+
+#col1Hora{
+    margin-right: 9px;
+}
+
+#col2Hora{
+    margin-left: 9px;
+}
+
+#controlProgress{
+    height: 6px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.progress1de2{
+    background-image: linear-gradient(to right, #1e84bb 50%, #ccc 50%) !important;
+}
+
+.progress2de2{
+    background-color: #1e84bb !important; 
+}
+
+.btnFechar {
+    margin: 0 !important;
+}
+
+.btnContinuar, .btnFechar {
+    color: white !important;
+    border-radius: 10px !important;
+    margin-top: 50px !important;
+    color: #fff;
+    display: inline-block !important;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 6px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    padding: 18px 20px !important;
+    margin-bottom: 10px !important;
+    margin-right: 15px;
+    background-image: linear-gradient(to right, #29579B, #1ea9bb, #1e6fbb, #29579B);
+}
+
+.MuiTextField-root{
+    width: 100% !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #29579B !important;
+}
+
+.btnContinuar:hover, .btnFechar:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btnContinuar:focus, .btnFechar:focus { 
+    outline: none; 
+}
+
+.icon{
+    background-color: #bae4ef;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    float: left;
+}
+
+.voltar{
+    display: block;
+    margin-bottom: 100px;
+}
+
+.modal{
+    margin-top:150px;
+}
+
+.modal-body{
+    padding: 30px 0;
+}
+
+#dadosToken{
+    margin-top:30px;
+}
+
+.errorMessage{
+    margin: 15px 0 0 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.espacoIcon{
+    height: 20px;
+}
+
+.tiposCalendario{
+    margin: 40px 0;
+}
+
+.rbc-btn{
+    margin: 0 70px !important;
+    font-size: 22px;
+    padding: 0px !important;
+    border: none !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+}
+
+.rbc-btn:hover, .rbc-btn:focus{
+    background-color: #c9f0ff;
+}
+
+.rbc-toolbar button:hover {
+    color: #000000;
+    background-color: #c9f0ff;
+    border-color: #d1d1d1;
+}
+
+.rbc-off-range-bg{
+    background-color: #d8f4ff;
+}
+
+.rbc-toolbar-label{
+    display: flex;
+    justify-content: center;
+}
+
+.rbc-toolbar{
+    margin-bottom: 50px;
+}
+
+.rbc-header{
+    padding: 10px;
+}
+
+.group2{
+    margin: 30px 0 0 0;
+    display: block;
+}
+
+.rbc-btn-group{
+    border-radius: 20px !important;
+
+}
+
+.rbc-month-view{
+    border-radius: 15px;
+}
+
+.rbc-event, .rbc-day-slot .rbc-background-event {
+    background-color: #29579B;
+}
+
+.day-number{
+    font-size: 22px;
+}
+
+.day-of-week{
+    font-size: 13px;
+}
+
+.event-list{
+    margin: 40px 0 0 0;
+}
+
+.event-item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.colInfo{
+    text-align: left;
+}
+
+.lineColor{
+    height: 10px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.event-type{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-description{
+    height: 35px;
+}
+
+.event-duration{
+    font-size: 13px;
+}
+
+.day-extended{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.bolinha{
+    width: 17px;
+    height: 17px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.acoes{
+    margin: 0 0 20px 0;
+}
+
+.config{
+    float: right;
+}
+
+.bolinha.selected {
+    background-color: #b3b3b3;
+    border: none;
+}
+
+.iconType{
+    width: 40px;
+    padding-top: 5px;;
+}
+
+.rowInfo .col-2, .col-9, .col-6{
+    padding: 0 !important;
+    text-align: left;
+}
+
+.copy{
+    font-size: 13px;
+    padding-top: 20px;
+    text-align: left;
+    color: gray;
+}
+
+.copy-icon{
+    margin-right: 8px !important;
+}
+
+.dropdown-toggle::after {
+    content:none;
+}
+
+#dropdownMenuButton {
+    width: 100% !important;
+    padding: 12px 0 0 0;
+}
+
+.ddlColor{
+    width: 70px;
+}
+
+.contentNomeColor{
+    display: flex;
+}
+
+#nome {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    height: 60px;
+    border-color: #cbcbcb;
+}
+
+#ddlColor{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;  
+    height: 60px;
+    border-color: #cbcbcb;
+}
+
+.input1de2{
+    width: 50% !important;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, -10px) scale(0.85) !important;
+    background-color: white !important;
+    padding: 0 6px;
+}
+
+.MuiInputBase-root{
+    border-radius: 10px !important;
+}
+
+
+.MuiStepper-root {
+    padding: 10px;
+}
